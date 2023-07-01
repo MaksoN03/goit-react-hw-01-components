@@ -1,0 +1,30 @@
+table {
+    width: 500px;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    background-color: rgb(234, 232, 240);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    width: 150px;
+
+}
+
+th {
+    background-color: aqua;
+    color: white;
+}
+
+tbody:nth-child(even) {
+    background-color: white;
+}
+
+tr:hover {
+    background-color: aquamarine;
+}

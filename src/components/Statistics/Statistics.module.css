@@ -1,0 +1,42 @@
+.section {
+    margin-top: 15px;
+    background-color: #fff;
+}
+
+.wrapper {
+    width: 300px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.title {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.stat {
+    margin: 0 auto;
+}
+
+.statList {
+    width: 300px;
+    display: flex;
+}
+
+.label {
+    padding-bottom: 5px;
+}
+
+.label,
+.percentage {
+    color: #fff;
+}
+
+.item {
+    width: calc(100%/5);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
